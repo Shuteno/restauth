@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 public class AuthorizationController {
-    AuthorizationService service;
+    private final AuthorizationService service;
 
     @Autowired
     public AuthorizationController(AuthorizationService service) {
