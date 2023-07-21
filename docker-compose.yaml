@@ -1,0 +1,12 @@
+version: '1'
+
+
+
+services:
+
+  app1:
+    build: ./
+    container_name: 'composeApp'
+    image: 'myapprest:1.0'
+    ports:
+      - '8080:8080'
